@@ -7,3 +7,5 @@
 npm install
 npm test
 ```
+
+CI pipeline enabled via GitHub Actions.
