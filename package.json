@@ -1,0 +1,24 @@
+{
+  "name": "todo-list-tests",
+  "version": "1.0.0",
+  "description": "Lab 5 - Part 2: Unit and Integration tests for TodoMVC task manager module",
+  "main": "src/todoService.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "todomvc",
+    "jest",
+    "unit-testing",
+    "integration-testing"
+  ],
+  "author": "Albul Vira",
+  "license": "ISC",
+  "devDependencies": {
+    "@testomatio/reporter": "latest",
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.7"
+  }
+}
