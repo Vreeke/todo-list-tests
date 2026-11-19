@@ -25,7 +25,7 @@ describe('Unit tests: TodoMVC validator & helpers', () => {
             { id: 2, title: 'Завдання 2', completed: true },
             { id: 3, title: 'Завдання 3', completed: false }
         ];
-        expect(countActiveTodos(sampleTodos)).toBe(2);
+        expect(countActiveTodos(sampleTodos)).toBe(99);
         expect(countActiveTodos([])).toBe(0);
     });
 
